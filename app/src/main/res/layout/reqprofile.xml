@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReqProfile">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tv_bg"
+        android:gravity="center"
+        android:text="@string/user_profile"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <RatingBar
+        android:id="@+id/ratingBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_above="@+id/etName"
+        android:layout_centerHorizontal="true"
+        android:foregroundGravity="center"
+        android:src="@drawable/user" />
+
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/etName"
+        android:layout_toStartOf="@+id/etName"
+        android:background="@drawable/ev_bg"
+        android:padding="15dp"
+        android:text="@string/name"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/textSize15"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/etName"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/ev_bg"
+        android:gravity="center"
+        android:lines="1"
+        android:maxLines="1"
+        android:text="Hasib Khan"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="@dimen/textSize15" />
+
+    <TextView
+        android:id="@+id/U"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Name"
+        android:layout_toLeftOf="@+id/etUni"
+        android:layout_toStartOf="@+id/etUni"
+        android:background="@drawable/ev_bg"
+        android:padding="15dp"
+        android:text="@string/university"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/textSize15"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/etUni"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_alignBaseline="@+id/U"
+        android:layout_alignBottom="@+id/U"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/ev_bg"
+        android:gravity="center"
+        android:lines="1"
+        android:maxLines="1"
+        android:text="MIST"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="@dimen/textSize15" />
+
+    <TextView
+        android:id="@+id/R"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/etUni"
+        android:layout_toLeftOf="@+id/etUni"
+        android:layout_toStartOf="@+id/etUni"
+        android:background="@drawable/ev_bg"
+        android:padding="15dp"
+        android:text="@string/roll"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/textSize15"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/etroll"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/R"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/ev_bg"
+        android:gravity="center"
+        android:lines="1"
+
+        android:maxLines="1"
+        android:text="201514000"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="@dimen/textSize15" />
+
+    <Button
+        android:id="@+id/contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/R"
+        android:layout_marginTop="19dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/contact"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/etEmail"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/contact"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/ev_bg"
+        android:gravity="center"
+        android:lines="1"
+        android:maxLines="1"
+        android:text="MIST@gmail.com"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="@dimen/textSize15" />
+
+    <TextView
+        android:id="@+id/E"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/etEmail"
+        android:layout_alignBottom="@+id/etEmail"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/etEmail"
+        android:layout_toStartOf="@+id/etEmail"
+        android:background="@drawable/ev_bg"
+        android:padding="15dp"
+        android:text="@string/email"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/textSize15"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/etcontact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/etEmail"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/contact"
+        android:layout_toEndOf="@+id/E"
+        android:layout_toRightOf="@+id/E" />
+</RelativeLayout>

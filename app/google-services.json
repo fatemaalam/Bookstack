@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "697148253716",
+    "firebase_url": "https://bookstack-65cc4.firebaseio.com",
+    "project_id": "bookstack-65cc4",
+    "storage_bucket": "bookstack-65cc4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:697148253716:android:869a365032b0ff75",
+        "android_client_info": {
+          "package_name": "com.cse.mist.bookstack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "697148253716-ov27i79rvtqigog6mevp9d0lf8rim99v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cse.mist.bookstack",
+            "certificate_hash": "e65024f5177f96c370cd9f8a54ac843750c38daa"
+          }
+        },
+        {
+          "client_id": "697148253716-c9qj0ga2vtt4bbmcsola9sa244t9see5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPVKBfId8-UZzzW63wL-AyqWxRLdH2UXw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "697148253716-c9qj0ga2vtt4bbmcsola9sa244t9see5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
